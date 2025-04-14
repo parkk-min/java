@@ -17,14 +17,16 @@ public class Exam13 {
                     break;
                 }
             }
-            if (flag) {
-                continue;
-            }
+            if (flag) continue;
             correct[count++] = num;
-            if (count == 3) {
-                break;
-            }
+            if (count == 3)  break;
+
         }
+        System.out.print("정답 숫자: ");
+        for (int i = 0; i < 3; i++) {
+            System.out.print(correct[i] + " ");
+        }
+        System.out.println("\n");
 
         while (true) {
             int strike = 0;
@@ -32,6 +34,10 @@ public class Exam13 {
             int out = 0;
 
             answerCount++;
+            System.out.println("숫자 3개를 입력하세요: ");
+            for (int i = 0; i < 3; i++) {
+                answer[i] = input.nextInt();
+            }
 
             for (int i = 0; i < correct.length; i++) {
                 for (int j = 0; j < answer.length; j++) {
