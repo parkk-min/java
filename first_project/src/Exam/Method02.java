@@ -1,3 +1,5 @@
+package Exam;
+
 public class Method02 {
     public static int div() {
         int a = 10, b = 5;

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Exam;
 
 public class Method06 {
     public static int sum(int x, int y) {

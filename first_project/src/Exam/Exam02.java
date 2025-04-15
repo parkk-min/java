@@ -1,5 +1,4 @@
-
-import java.util.Scanner;
+package Exam;
 
 public class Exam02 {
     public static void main(String[] args) {

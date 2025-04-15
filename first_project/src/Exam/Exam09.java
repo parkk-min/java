@@ -1,3 +1,5 @@
+package Exam;
+
 public class Exam09 {
     public static void main(String[] args) {
         int myArr[][] = {{1, 2, 3, 4, 5},

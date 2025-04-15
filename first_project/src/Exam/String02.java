@@ -1,4 +1,4 @@
-
+package Exam;
 
 public class String02 {
     public static void main(String[] args) {

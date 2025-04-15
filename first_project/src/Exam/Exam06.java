@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Exam;
 
 public class Exam06 {
     public static void calculate(int x, int y) {
