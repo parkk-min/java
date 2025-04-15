@@ -12,7 +12,7 @@ public class Exam04 {
             myArr[i] = s.nextLine();
         }
         for (int i = 0; i < 4; i++)
-            System.out.print(myArr[i] + " ");
+            System.out.print(myArr[i]);
     }
 }
 
