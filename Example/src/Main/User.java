@@ -2,13 +2,13 @@ package Main;
 
 public class User {
 
-    private final String id;
-    private int pw;
-    private final String name;
+    private String id;
+    private String pw;
+    private String name;
     private String phone;
     private String address;
 
-    public User(String id, int pw, String name, String phone, String address) {
+    public User(String id, String pw, String name, String phone, String address) {
         this.id = id;
         this.pw = pw;
         this.name = name;
@@ -20,7 +20,7 @@ public class User {
         return id;
     }
 
-    public int getPw() {
+    public String getPw() {
         return pw;
     }
 
@@ -36,7 +36,7 @@ public class User {
         return address;
     }
 
-    public void setPw(int pw) {
+    public void setPw(String pw) {
         this.pw = pw;
     }
 
