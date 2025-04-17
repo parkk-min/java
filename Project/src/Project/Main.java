@@ -1,8 +1,8 @@
-import java.util.Scanner;
+package Project;
 
 public class Main {
     public static void main(String[] args) {
-        BookManager manager = new BookManager();
+        AddressManager manager = new AddressManager();
         manager.run();
     }
 }
