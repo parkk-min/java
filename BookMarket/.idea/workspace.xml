@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c3144ff-4994-4ecb-af73-3758869c651f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BookManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/src/Project/AddressManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/src/Project/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/src/Project/MenuManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project/src/Project/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main/UserInfo.java" afterDir="false" />
-    </list>
+    <list default="true" id="5c3144ff-4994-4ecb-af73-3758869c651f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
