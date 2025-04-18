@@ -1,54 +1,67 @@
 public class Book {
+    String isbn;
+    String title;
+    int price;
+    String author;
+    String description;
+    String category;
+    String publishDate;
 
-    private String id;
-    private String bookName;
-    private int price;
-    private String name;
-    private String process;
-    private String special;
-    private String date;
-
-
-    public Book(String id, String bookName, int price, String name, String process, String special, String date) {
-        this.id = id;
-        this.bookName = bookName;
+    public Book(String isbn, String title, int price, String author, String description, String category, String publishDate) {
+        this.isbn = isbn;
+        this.title = title;
         this.price = price;
-        this.name = name;
-        this.process = process;
-        this.special = special;
-        this.date = date;
+        this.author = author;
+        this.description = description;
+        this.category = category;
+        this.publishDate = publishDate;
     }
 
-    public String getID() {
-        return this.id;
+    public String getIsbn() {
+        return isbn;
     }
 
-    public String getBookName() {
-        return this.bookName;
+    public String getTitle() {
+        return title;
     }
 
     public int getPrice() {
-        return this.price;
+        return price;
     }
 
-    public String getName() {
-        return this.name;
+    public String getAuthor() {
+        return author;
     }
 
-    public String getProcess() {
-        return this.process;
+    public String getDescription() {
+        return description;
     }
 
-    public String getSpecial() {
-        return this.special;
+    public String getCategory() {
+        return category;
     }
 
-    public String getDate() {
-        return this.date;
+    public String getPublishDate() {
+        return publishDate;
     }
 
-    @Override
-    public String toString() {
-        return id + '\'' + bookName + '\'' + price + '\'' + name + '\'' + process + '\'' + special + '\'' + date + '\'';
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public void setPublishDate(String publishDate) {
+        this.publishDate = publishDate;
     }
 }

@@ -1,20 +1,25 @@
-
 public class Person {
+    private String name;
+    private String phone;
 
-    private final String userName;
-    private final String phone;
-
-    public Person(String userName, String phone) {
-        this.userName = userName;
+    public Person(String name, String phone) {
+        this.name = name;
         this.phone = phone;
     }
 
-    public String getUserName() {
-        return this.userName;
+    public String getName() {
+        return this.name;
     }
 
     public String getPhone() {
         return this.phone;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
 }
