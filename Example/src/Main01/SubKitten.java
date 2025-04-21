@@ -1,7 +1,7 @@
 package Main01;
 
 public class SubKitten extends SuperCat {
-    String name;
+    String age = "2살";
 
     void printInfo() {
         System.out.println("아기 고양이입니다.");
@@ -9,9 +9,10 @@ public class SubKitten extends SuperCat {
 
     void printDetail() {
         super.printInfo();
+        System.out.println("품종: " + super.breed);
+        System.out.println("나이: " + super.age);
         printInfo();
-        super.name = "SuperCat";
-        name = "SUbKitten";
-
+        System.out.println("품종: " + breed);
+        System.out.println("나이: " + age);
     }
 }

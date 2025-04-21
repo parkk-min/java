@@ -1,8 +1,8 @@
 package Main01;
 
 public class Dog extends Animal {
-    void bark() {
-        System.out.println("멍멍하고 짖다");
+    public void eat() {
+        System.out.println("개 밥");
     }
 
     public void animalSound() {

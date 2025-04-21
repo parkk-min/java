@@ -5,24 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c3144ff-4994-4ecb-af73-3758869c651f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BookMarketManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main01/Child2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main01/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main01/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main01/Parent2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main01/SubKitten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main01/SubKitten2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main01/SuperCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main01/SuperCat2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CartInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/AbstractClass01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Example01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/FourWheeler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/TwoWheeler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Interface01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/SmartDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/SmartPhoneImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/SmartPhoneImpl02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/SmartPhoneMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/SmartPhoneMain02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookMarketManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookMarketManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Pig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Polymorphism2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Polymorphism2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/SubKitten.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/SubKitten.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/SuperCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/SuperCat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/Pig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/Polymorphism2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/Polymorphism2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/SubKitten.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/SubKitten.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/SuperCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/SuperCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +76,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Address.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.UserInfo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Repository/java/Example"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Address.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserInfo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Repository/java/Example&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,5 +110,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Cart.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
