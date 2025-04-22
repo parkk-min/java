@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07d32926-0d2a-46ab-9512-cf59ca8ccc7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../BookMarket/src/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BookMarket/src/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BookMarket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BookMarket/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BookMarket/src/BookMarketManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BookMarket/src/BookMarketManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Pig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Polymorphism2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Polymorphism2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/SubKitten.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/SubKitten.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/SuperCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/SuperCat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/Pig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/Polymorphism2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/Polymorphism2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/SubKitten.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/SubKitten.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/SuperCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/SuperCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressProject/AddressProject/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressProject/AddressProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressProject/AddressProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressProject/AddressProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressProject/AddressProject/AddressProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressProject/AddressProject/src/AddressManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressProject/AddressProject/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressProject/AddressProject/src/MenuManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddressProject/AddressProject/src/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

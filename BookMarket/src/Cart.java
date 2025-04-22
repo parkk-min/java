@@ -1,11 +1,12 @@
+import java.util.ArrayList;
+
 public class Cart implements CartInterface {
-    private CartItem[] mCart = new CartItem[3];
-    private int mCartItemCount = 0;
+    private ArrayList<CartItem> mCart = new ArrayList<>();
 
     @Override
     public boolean isCartInItem(String bookId) {
-        for (int i = 0; i < this.mCartItemCount; i++) {
-            if (bookId.equals(this.mCart[i].getBook().getItemId())) {
+        for (CartItem item : this.mCart) {
+            if (bookId.equals(item.getBook().getItemId())) {
                 return true;
             }
         }
@@ -14,17 +15,16 @@ public class Cart implements CartInterface {
 
     @Override
     public void clearCart() {
-        this.mCart = new CartItem[3];
-        this.mCartItemCount = 0;
+        this.mCart.clear();
     }
 
     @Override
     public Item removeCartItem(String bookId) {
         Book book = null;
-        for (int i = 0; i < this.mCartItemCount; i++) {
-            if (this.mCart[i].getBook().getItemId().equals(bookId)) {
-                book = this.mCart[i].getBook();
-                this.removeCartItem(i);
+        for (CartItem item : this.mCart) {
+            if (item.getBook().getItemId().equals(bookId)) {
+                book = item.getBook();
+                this.mCart.remove(item);
                 break;
             }
         }
@@ -33,16 +33,16 @@ public class Cart implements CartInterface {
 
     @Override
     public void appendItem(Item book) {
-        this.mCart[this.mCartItemCount] = new CartItem((Book) book);
-        this.mCartItemCount++;
+        this.mCart.add(new CartItem((Book) book));
+
     }
 
     @Override
     public void inCreaseItemCount(String bookid) {
-        for (int i = 0; i < this.mCartItemCount; i++) {
-            if (this.mCart[i].getBook().getItemId().equals(bookid)) {
-                this.mCart[i].setCount(this.mCart[i].getCount() + 1);
-                return;
+        for (CartItem item : this.mCart) {
+            if (item.getBook().getItemId().equals(bookid)) {
+                item.setCount(item.getCount() + 1);
+                break;
             }
         }
     }
@@ -50,38 +50,18 @@ public class Cart implements CartInterface {
     @Override
     public Item deCreaseItemCount(String bookid) {
         Book book = null;
-        for (int i = 0; i < this.mCartItemCount; i++) {
-            if (this.mCart[i].getBook().getItemId().equals(bookid)) {
-                book = this.mCart[i].getBook();
-                this.mCart[i].setCount(this.mCart[i].getCount() - 1);
-                if (this.mCart[i].getCount() == 0) {
+        for (CartItem item : this.mCart) {
+            if (item.getBook().getItemId().equals(bookid)) {
+                book = item.getBook();
+                item.setCount(item.getCount() - 1);
+                if (item.getCount() == 0) {
                     System.out.println("수량이 0이 되어 항목을 장바구니에서 삭제합니다.");
-                    this.removeCartItem(i);
+                    this.mCart.remove(item);
                     break;
                 }
             }
         }
         return book;
-    }
-
-    @Override
-    public void removeCartItem(int index) {
-//        for(int i=index; i<this.mCartItemCount-1; i++){
-//            this.mCart[i] = this.mCart[i+1];
-//        }
-//
-//        this.mCart[this.mCartItemCount-1] = null;
-//        this.mCartItemCount--;
-
-        CartItem[] newCarItemList = new CartItem[3];
-        int number = 0;
-        for (int i = 0; i < this.mCartItemCount; i++) {
-            if (i != index) {
-                newCarItemList[number++] = this.mCart[i];
-            }
-        }
-        this.mCart = newCarItemList;
-        this.mCartItemCount--;
     }
 
     @Override

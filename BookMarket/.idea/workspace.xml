@@ -5,49 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c3144ff-4994-4ecb-af73-3758869c651f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CartInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/AbstractClass01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Example01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/FourWheeler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/TwoWheeler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main02/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Interface01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/SmartDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/SmartPhoneImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/SmartPhoneImpl02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/SmartPhoneMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Example/src/Main03/SmartPhoneMain02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Example01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Example02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Example03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Example04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Example05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Example06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Example07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Example08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Example09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/MapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookMarketManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookMarketManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Pig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Pig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Polymorphism2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/Polymorphism2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/SubKitten.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/SubKitten.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/out/production/Example/Main01/SuperCat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/out/production/Example/Main01/SuperCat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/Pig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/Pig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/Polymorphism2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/Polymorphism2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/SubKitten.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/SubKitten.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example/src/Main01/SuperCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Example/src/Main01/SuperCat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/AddressProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/src/AddressManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/src/MenuManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/src/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,16 +89,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Cart.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
