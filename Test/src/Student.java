@@ -10,11 +10,7 @@ public class Student {
         this.name = name;
     }
 
-    public void addGrade(String subject, Integer score) {
-        grade.put(subject, score);
-    }
-
-    public String getPhone() {
+    public String getId() {
         return id;
     }
 
@@ -22,4 +18,11 @@ public class Student {
         return name;
     }
 
+    public void addGrade(String subject, Integer score) {
+        grade.put(subject, score);
+    }
+
+    public HashMap<String, Integer> getGrades() {
+        return grade;
+    }
 }

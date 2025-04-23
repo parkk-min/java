@@ -9,8 +9,6 @@ public class Admin {
         admins.put("aaa", "111");
         admins.put("bbb", "222");
         admins.put("ccc", "333");
-        admins.put("ddd", "444");
-        admins.put("eee", "555");
     }
 
     public Admin(String name, String phone) {
