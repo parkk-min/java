@@ -1,3 +1,5 @@
+package Collection;
+
 import java.util.Hashtable;
 
 public class Example06 {

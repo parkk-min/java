@@ -1,19 +1,20 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class BookMarketManager {
-    private Book[] mBook = new Book[3];
+    private ArrayList<Book> mBookList = new ArrayList<>(3);
     private Cart mCart = new Cart();
     private Person mCurrentUser;
 
     public BookMarketManager() {
-        this.mBook[0] = new Book("ISBN1234", "쉽게 배우는 JSP 웹프로그래밍", 27000,
+        mBookList.add(new Book("ISBN1234", "쉽게 배우는 JSP 웹프로그래밍", 27000,
                 "송미영", "단계별로 구현하여 배우는 JSP 프로그래밍", "IT전문서",
-                "2018/10/08");
-        this.mBook[1] = new Book("ISBN1235", "안드로이드 프로그래밍", 33000, "우재남",
-                "실습단계별 명확한 멘토링!", "IT전문서", "2022/01/22");
+                "2018/10/08"));
+        mBookList.add(new Book("ISBN1235", "안드로이드 프로그래밍", 33000, "우재남",
+                "실습단계별 명확한 멘토링!", "IT전문서", "2022/01/22"));
 
-        this.mBook[2] = new Book("ISBN1236", "스크래치", 22000, "고광일",
-                "컴퓨팅 사고력을 키우는 블록 코딩", "컴퓨터 입문", "2019/06/10");
+        mBookList.add(new Book("ISBN1236", "스크래치", 22000, "고광일",
+                "컴퓨팅 사고력을 키우는 블록 코딩", "컴퓨터 입문", "2019/06/10"));
     }
 
     public void run() {
@@ -101,21 +102,21 @@ public class BookMarketManager {
     }
 
     public void bookList() {
-        for (int i = 0; i < this.mBook.length; i++) {
+        for (Book book : this.mBookList) {
             System.out.print("도서 ID :");
-            System.out.println(this.mBook[i].getItemId());
+            System.out.println(book.getItemId());
             System.out.print("도서 이름: ");
-            System.out.println(this.mBook[i].getName());
+            System.out.println(book.getName());
             System.out.print("도서 가격: ");
-            System.out.println(this.mBook[i].getPrice());
+            System.out.println(book.getPrice());
             System.out.print("저자 : ");
-            System.out.println(this.mBook[i].getAuthor());
+            System.out.println(book.getAuthor());
             System.out.print("도서 설명 : ");
-            System.out.println(this.mBook[i].getDescription());
+            System.out.println(book.getDescription());
             System.out.print("분류 : ");
-            System.out.println(this.mBook[i].getCategory());
+            System.out.println(book.getCategory());
             System.out.print("출판일 : ");
-            System.out.println(this.mBook[i].getPublishDate());
+            System.out.println(book.getPublishDate());
             System.out.println("*".repeat(50));
         }
     }
@@ -124,24 +125,23 @@ public class BookMarketManager {
         System.out.println("장바구니 항목 추가하기");
 
         bookList();
+        Scanner input = new Scanner(System.in);
 
         while (true) {
             boolean exit = false;
             System.out.print("장바구니에 추가할 도서의 ID를 입력하세요: ");
-
-            Scanner input = new Scanner(System.in);
             String bookid = input.nextLine();
 
-            int index = -1;
-
-            for (int i = 0; i < this.mBook.length; i++) {
-                if (bookid.equals(this.mBook[i].getItemId())) {
-                    index = i;
+            Book searchBook = null;
+            for (Book book : this.mBookList) {
+                if (bookid.equals(book.getItemId())) {
+                    searchBook = book;
                     break;
                 }
             }
 
-            if (index != -1) {
+
+            if (searchBook != null) {
                 System.out.println("장바구니에 추가하겠습니까? Y|N");
                 String yn = input.nextLine();
 
@@ -149,9 +149,9 @@ public class BookMarketManager {
                     if (this.mCart.isCartInItem(bookid)) {
                         this.mCart.inCreaseItemCount(bookid);
                     } else {
-                        this.mCart.appendItem(this.mBook[index]);
+                        this.mCart.appendItem(searchBook);
                     }
-                    System.out.println(this.mBook[index].getItemId() + "이(가) 장바구니에 추가되었습니다.");
+                    System.out.println(searchBook.getItemId() + "이(가) 장바구니에 추가되었습니다.");
                 }
                 exit = true;
             } else {

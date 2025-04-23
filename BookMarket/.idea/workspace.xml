@@ -5,28 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c3144ff-4994-4ecb-af73-3758869c651f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../collection/src/Example01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../collection/src/Example02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../collection/src/Example03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../collection/src/Example04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../collection/src/Example05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../collection/src/Example06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../collection/src/Example07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../collection/src/Example08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../collection/src/Example09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../collection/src/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/GradeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Section/Exception01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Section/Exception02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Section/Exception03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Section/Exception04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collection/src/Section/Exception05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BookMarketManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookMarketManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CartInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CartInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/AddressProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/src/AddressManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/src/MenuManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Project/src/AddressProject/AddressProject/src/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection/src/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection/src/Collection/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection/src/Example01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection/src/Collection/Example01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection/src/Example02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection/src/Collection/Example02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection/src/Example03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection/src/Collection/Example03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection/src/Example04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection/src/Collection/Example04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection/src/Example05.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection/src/Collection/Example05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection/src/Example06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection/src/Collection/Example06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection/src/Example07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection/src/Collection/Example07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection/src/Example08.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection/src/Collection/Example08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection/src/Example09.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection/src/Collection/Example09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../collection/src/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../collection/src/Collection/MapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

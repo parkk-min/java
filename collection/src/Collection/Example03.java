@@ -1,3 +1,5 @@
+package Collection;
+
 import java.util.LinkedList;
 
 public class Example03 {

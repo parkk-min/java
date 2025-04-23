@@ -70,10 +70,11 @@ public class Cart implements CartInterface {
         System.out.println("---------------------------------------------");
         System.out.println("도서ID\t\t|수량\t\t\t\t|총가격");
 
-        for (int i = 0; i < this.mCartItemCount; i++) {
-            System.out.print((i + 1) + " " + this.mCart[i].getBook().getItemId() + "\t| ");
-            System.out.print(this.mCart[i].getCount() + "\t\t\t\t| ");
-            System.out.print(this.mCart[i].getTotalPrice());
+        for (int i = 0; i < mCart.size(); i++) {
+            CartItem item = mCart.get(i);
+            System.out.print((i + 1) + " " + item.getBook().getItemId() + "\t| ");
+            System.out.print(item.getCount() + "\t\t\t\t| ");
+            System.out.print(item.getTotalPrice());
             System.out.println();
         }
         System.out.println("---------------------------------------------");

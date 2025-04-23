@@ -11,7 +11,5 @@ public interface CartInterface {
 
     Item deCreaseItemCount(String id);
 
-    void removeCartItem(int index);
-
     void printCart();
 }

@@ -1,3 +1,5 @@
+package Collection;
+
 import java.util.HashMap;
 
 public class Example07 {
@@ -5,7 +7,7 @@ public class Example07 {
         // HashMap 생성
         HashMap<String, Integer> map = new HashMap<>();
 
-        //특정 키의 값 호출	map.get("apple")
+        //특정 키의 값 호출	map.get("사과")
         //모든 키-값 출력	entrySet() or keySet() + get()
         //모든 키만 출력	map.keySet()
         //모든 값만 출력	map.values()
